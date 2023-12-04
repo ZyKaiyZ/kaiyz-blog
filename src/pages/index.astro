@@ -9,7 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
-import { SOCIALS } from "@config";
+import { SOCIALS, SITE } from "@config";
 
 const posts = await getCollection("blog");
 
@@ -26,7 +26,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <h1 class="mr-2">Welcome :)&nbsp</h1>
       <a
         target="_blank"
-        href="/rss.xml"
+        href={`${SITE.base}/rss.xml`}
         class="rss-link"
         aria-label="rss feed"
         title="RSS Feed"
@@ -73,7 +73,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
-                  href={`/posts/${slugify(data)}`}
+                  href={`${SITE.base}/posts/${slugify(data)}`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -95,7 +95,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ({ data }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/posts/${slugify(data)}`}
+                    href={`${SITE.base}/posts/${slugify(data)}`}
                     frontmatter={data}
                     secHeading={false}
                   />
@@ -104,7 +104,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         }
       </ul>
       <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
+        <LinkButton href={`${SITE.base}/posts`}>
           All Posts
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path

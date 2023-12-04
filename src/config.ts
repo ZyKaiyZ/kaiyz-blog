@@ -8,6 +8,7 @@ export const SITE: Site = {
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
+  base: "/kaiyz-blog",
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
