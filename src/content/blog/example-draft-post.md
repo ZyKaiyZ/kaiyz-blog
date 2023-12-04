@@ -1,6 +1,6 @@
 ---
 title: Example Draft Post
-author: Kai
+author: Kaiyz
 pubDatetime: 2023-12-02T00:00:00Z
 postSlug: example-draft-post
 featured: false
