@@ -2,16 +2,13 @@
 title: Example Draft Post
 author: Kaiyz
 pubDatetime: 2023-12-02T00:00:00Z
-postSlug: example-draft-post
+postSlug: post1-20231202
 featured: false
 draft: true
 tags:
   - TypeScript
   - Astro
-description:
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel
-  fringilla est
+description: 在 Visual Studio 中為 Unit Test 設定境環變數... (長度35，標點順延)
 ---
 
 Users cannot see this post because it is in draft.
