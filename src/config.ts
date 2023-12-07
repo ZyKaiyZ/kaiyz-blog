@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Kaiyz's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 10,
+  postPerPage: 6,
   base: "/kaiyz-blog",
 };
 
@@ -29,9 +29,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.facebook.com/kaiyz.dev",
     linkTitle: `${SITE.title} on Facebook`,
-    active: false,
+    active: true,
   },
   {
     name: "Instagram",
