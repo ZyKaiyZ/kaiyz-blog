@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Kaiyz's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 6,
+  postPerPage: 5,
   base: "/kaiyz-blog",
 };
 
