@@ -40,7 +40,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </a>
       <p>
-        這裡是關於我的成長記錄。
+        這裡是關於我的成長記錄
       </p>
       <!-- <p>
         Read the blog posts or check
@@ -93,7 +93,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             .filter(({ data }) => !data.featured)
             .map(
               ({ data }, index) =>
-                index < 4 && (
+                index < SITE.postPerPage && (
                   <Card
                     href={`${SITE.base}/posts/${slugify(data)}`}
                     frontmatter={data}

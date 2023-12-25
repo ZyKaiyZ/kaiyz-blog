@@ -6,12 +6,11 @@ postSlug: adding-new-posts-in-astropaper-theme
 featured: true
 draft: true
 tags:
-  - docs
+  - Docs
 description:
   Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
 ---
-
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
 
 ## Table of contents
