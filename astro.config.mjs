@@ -7,8 +7,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://zykaiyz.github.io", // replace this with your deployed domain
-  base: "/kaiyz-blog",
+  site: "https://0xkaiyz,dev", // replace this with your deployed domain
+  base: "/",
   integrations: [
     tailwind({
       applyBaseStyles: false,
