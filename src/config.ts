@@ -1,14 +1,14 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://zykaiyz.github.io/kaiyz-blog",
+  website: "https://0xkaiyz.dev",
   author: "Kaiyz",
   desc: "My personal blog",
   title: "Kaiyz's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
-  base: "/",
+  base: "",
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
