@@ -1,8 +1,8 @@
 ---
 title: Example Draft Post
 author: Kaiyz
-pubDatetime: 2023-12-02T00:00:00Z
-postSlug: post1-20231202
+pubDatetime: 2024-01-04T00:00:00Z
+postSlug: post10-20240104
 featured: false
 draft: true
 tags:
